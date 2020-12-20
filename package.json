@@ -4,7 +4,7 @@
   "description": "Doodle wajahmu menggunakan Augmented Reality",
   "repository": "https://github.com/prasetyoandi/doodlewajah",
   "scripts": {
-    "start": "parcel index.html --https 0.0.0.0",
+    "start": "parcel index.html --host 0.0.0.0",
     "deploy": "parcel build index.html --no-source-maps --public-url /doodlewajah/ && gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
