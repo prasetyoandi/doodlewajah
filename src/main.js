@@ -1,4 +1,4 @@
-import facemesh from './facemesh.js'
+import facemesh from './facemesh'
 import refmesh from './refmesh'
 import three from './three'
 import colorpicker from './colorpicker'
